@@ -13,8 +13,8 @@ case 'start':
 
   // connect to receiver then power on & select input 5 (pc)
   $iscp = new iscp("10.10.0.9");
-  //$iscp->sendcmd("!1PWR01");
-  //$iscp->sendcmd("!1SLI05");
+  $iscp->sendcmd("!1PWR01");
+  $iscp->sendcmd("!1SLI05");
   break;
 
 case 'stop':
@@ -27,7 +27,7 @@ case 'stop':
 
   // power off receiver
   $iscp = new iscp("10.10.0.9");
-  //$iscp->sendcmd("!1PWR00");
+  $iscp->sendcmd("!1PWR00");
   break;
 
 default:
