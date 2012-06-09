@@ -1,4 +1,4 @@
-media-boot-php
+php-media-boot
 =============
 Startup/shutdown script that send ISCP commands, wake-on-lan magic packets and can execute commands on remote hosts via ssh.
 
