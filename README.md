@@ -1,13 +1,14 @@
 media-boot-php
 =============
-PHP script to be invoked at startup/shutdown that send ISCP commands, Wake-On-LAN magic packets and execute predefined commands via ssh.
+Startup/shutdown script that send ISCP commands, wake-on-lan magic packets and can execute commands on remote hosts via ssh.
 
 Howto
 -------
 Modify media-boot.php to suit your needs and tie into your system startup and shutdown procedures.
 
-  $php media-boot.php
-  Usage: media-boot.php [ start | stop ]
+	$php media-boot.php
+	Usage: media-boot.php [ start | stop ]
+  
 
 Why
 -------
